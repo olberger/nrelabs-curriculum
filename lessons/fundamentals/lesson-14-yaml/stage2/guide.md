@@ -56,5 +56,6 @@ yamlFile = open('complexdict.yaml', 'r')
 yamlDict = yaml.load(yamlFile)
 for key, value in yamlDict.items():
     print("The key %s is of type %s and its value %s is of type %s" % (key, type(key), value, type(value)))
+
 ```
 <button type="button" class="btn btn-primary btn-sm" onclick="runSnippetInTab('linux1', this)">Run this snippet</button>
